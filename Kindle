@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CYBERDECK OS</title>
+
+<style>
+body {
+  background:#000;
+  color:#fff;
+  font-family: Impact, Arial Black, sans-serif;
+  margin:0;
+  padding:12px;
+
+  /* subtle starfield */
+  background-image:
+    radial-gradient(#fff 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+
+/* TOP TITLE */
+.top {
+  text-align:center;
+  font-size:40px;
+  border:5px solid #fff;
+  padding:10px;
+  margin-bottom:12px;
+  letter-spacing:3px;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display:flex;
+  gap:10px;
+}
+
+/* APP BOXES */
+.app {
+  flex:1;
+  border:5px solid #fff;
+  padding:12px;
+  min-height:180px;
+  font-size:20px;
+  font-weight:900;
+}
+
+/* SECTION TITLES */
+.title {
+  font-size:24px;
+  margin-bottom:10px;
+  text-transform:uppercase;
+}
+
+/* LINKS */
+a {
+  color:#fff;
+  font-weight:900;
+  display:block;
+  margin:6px 0;
+  text-decoration:underline;
+  font-size:18px;
+}
+
+/* FOOTER */
+.footer {
+  text-align:center;
+  margin-top:10px;
+  border-top:3px solid #fff;
+  padding-top:6px;
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">CYBERDECK OS DESKTOP</div>
+
+<div class="grid">
+
+  <div class="app">
+    <div class="title">SYSTEM</div>
+    STATUS: ONLINE<br>
+    CORE: ACTIVE<br>
+    SIGNAL: STABLE<br>
+    MODE: KINDLE SHELL
+  </div>
+
+  <div class="app">
+    <div class="title">SIGNAL</div>
+    SCANNING...<br>
+    NOISE: LOW<br>
+    STATIC: PRESENT<br>
+    GHOST DATA: DETECTED
+  </div>
+
+</div>
+
+<br>
+
+<div class="grid">
+
+  <div class="app">
+    <div class="title">LIBRARY</div>
+
+    <a href="https://www.gutenberg.org/">📚 GUTENBERG ARCHIVE</a>
+    <a href="https://standardebooks.org/">📖 STANDARD EBOOKS</a>
+
+  </div>
+
+  <div class="app">
+    <div class="title">SYSTEM FILES</div>
+
+    /core/<br>
+    /logs/<br>
+    /books/<br>
+    /radio/<br>
+    /signal/
+
+  </div>
+
+</div>
+
+<div class="footer">
+CYBERDECK OS // KINDLE DESKTOP BUILD
+</div>
+
+</body>
+</html>
